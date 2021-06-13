@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Special+Elite&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: 'Special Elite', cursive;
+    background-color: transparent;
+    background: url(../img/blackandwhitestripes.jpg);
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* width: 100%; */
+    z-index: 2;
+}
+
+.topnav a {
+    float: left;
+    overflow: auto;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+#firstBox {
+    position: relative;
+    --box-shadow-color: white;
+    box-shadow: 3px -34px 76px var(--box-shadow-color);
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+
+.whoIAm {
+    position: inherit;
+    left: 206px;
+    top: 27px;
+    width: auto;
+    height: 672px;
+}
+
+.whoIAm p {
+    font-size: 69px;
+    margin: 5px;
+    background-color: black;
+}
+
+.whoIAm h1 {
+    font-size: 83px;
+    margin-right: 66px;
+    background-color: black;
+}
+
+.whoIAm img {
+    width: 399px;
+    border-radius: 122px;
+}
+
+.tools {
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.card {
+    width: 226px;
+    height: 218px;
+    border-radius: 11px;
+    background-color: #359839;
+    margin: 22px;
+    padding: 15px;
+}
+
+.card h3, p {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.verticalCenter {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.icons {
+    /* position: relative;
+    left: 774px; */
+    padding: 10px;
+    margin: auto;
+    width: 19%;
+}
+
+.icons img {
+    background-color: white;
+    width: 37px;
+    border-radius: 19px;
+    margin: 24px;
+    transition: box-shadow 2s ease, background-color 2s ease;
+}
+
+.icons img:hover {
+    box-shadow: 1px 0px 73px 9px whitesmoke;
+    cursor: pointer;
+    background-color: black;
+}
+
+.container {
+    background: url(../img/technosphere.jpg);
+    height: 439px;
+}
+
+footer {
+    color: #4caf50;
+    background: transparent;
+    text-align: center;
+    bottom: 408px;
+    margin: -16px;
+    grid-row: auto;
+}
+
+.semicolon {
+    float: left;
+    height: auto;
+    width: 25%;
+}
+
+.semicolon img {
+    width: 206px;
+    padding: 75px;
+    position: relative;
+    left: 135px;
+    bottom: 12px;
+}
+
+form {
+    float: left;
+    margin: 24px;
+    position:relative;
+    left: 155px;
+    text-align: center;  
+    top: 29px;  
+}
+
+input {
+    width: 587px;
+    height: 47px;
+    font-size: 17px;
+}
+
+form .fname {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+form .email {
+    width: 585px;
+}
+
+form .number {
+    width: 585px;
+}
+
+textarea {
+    width: 587px;
+    height: 130px;
+    border-bottom-right-radius: 15px;
+    font-size: 17px;
+}
+
+button {
+    border-bottom-left-radius: 15px;
+    width: 102px;
+    height: 47px;
+    right: 245px;
+    position: relative;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.thanks {
+    float: right;
+    height: auto;
+    width: 25%;
+}
+
+.thanks img {
+    width: 400px;
+    padding: 0px;
+    position: relative;
+    right: 37px;
+    bottom: 12px;
+}
